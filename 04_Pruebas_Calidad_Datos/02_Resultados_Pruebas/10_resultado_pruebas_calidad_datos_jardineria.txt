@@ -1,0 +1,80 @@
+Changed database context to 'jardineria'.
+tabla   registros_con_nulos
+------- -------------------
+cliente                   0
+
+(1 rows affected)
+tabla    registros_con_nulos
+-------- -------------------
+producto                   0
+
+(1 rows affected)
+nombre_cliente                                     telefono        ciudad                                             cantidad   
+-------------------------------------------------- --------------- -------------------------------------------------- -----------
+Lasas S.A.                                         34916540145     Fuenlabrada                                                  2
+
+(1 rows affected)
+CodigoProducto  cantidad   
+--------------- -----------
+
+(0 rows affected)
+ID_pedido   fecha_pedido     fecha_esperada   fecha_entrega    estado         
+----------- ---------------- ---------------- ---------------- ---------------
+         42       2009-04-01       2009-03-04       2009-03-07 Entregado      
+         43       2009-04-03       2009-03-04       2009-03-05 Rechazado      
+         44       2009-04-15       2009-03-17       2009-03-17 Entregado      
+         77       2009-02-07       2008-02-17             NULL Pendiente      
+
+(4 rows affected)
+ID_pedido   fecha_pedido     fecha_esperada   fecha_entrega    estado         
+----------- ---------------- ---------------- ---------------- ---------------
+         24       2009-02-07       2009-02-13             NULL Entregado      
+         64       2009-02-07       2009-02-13             NULL Entregado      
+         75       2009-01-24       2009-01-28             NULL Entregado      
+
+(3 rows affected)
+ID_pedido   fecha_pedido     fecha_esperada   fecha_entrega    estado         
+----------- ---------------- ---------------- ---------------- ---------------
+         42       2009-04-01       2009-03-04       2009-03-07 Entregado      
+         43       2009-04-03       2009-03-04       2009-03-05 Rechazado      
+         44       2009-04-15       2009-03-17       2009-03-17 Entregado      
+
+(3 rows affected)
+ID_producto CodigoProducto  nombre                                                                 precio_venta      precio_proveedor 
+----------- --------------- ---------------------------------------------------------------------- ----------------- -----------------
+
+(0 rows affected)
+ID_producto CodigoProducto  nombre                                                                 cantidad_en_stock
+----------- --------------- ---------------------------------------------------------------------- -----------------
+
+(0 rows affected)
+ID_detalle_pedido ID_pedido   ID_producto cantidad    precio_unidad    
+----------------- ----------- ----------- ----------- -----------------
+
+(0 rows affected)
+ID_cliente  nombre_cliente                                     ID_empleado_rep_ventas
+----------- -------------------------------------------------- ----------------------
+
+(0 rows affected)
+ID_pedido   ID_cliente 
+----------- -----------
+
+(0 rows affected)
+ID_detalle_pedido ID_pedido  
+----------------- -----------
+
+(0 rows affected)
+ID_detalle_pedido ID_producto
+----------------- -----------
+
+(0 rows affected)
+prueba                             total      
+---------------------------------- -----------
+clientes_nulos                               0
+productos_nulos                              0
+pedidos_fechas_inconsistentes                4
+pedidos_entregados_sin_fecha                 3
+productos_stock_negativo                     0
+detalles_cantidad_precio_invalidos           0
+
+(6 rows affected)

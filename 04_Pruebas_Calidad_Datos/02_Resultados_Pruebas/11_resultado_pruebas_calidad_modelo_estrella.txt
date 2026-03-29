@@ -1,0 +1,84 @@
+Changed database context to 'jardineria'.
+hechos_con_claves_nulas
+-----------------------
+                      0
+
+(1 rows affected)
+hechos_con_medidas_nulas
+------------------------
+                       0
+
+(1 rows affected)
+id_fact_venta id_tiempo   id_producto id_cliente  id_empleado id_estado   id_pedido_origen id_detalle_origen cantidad    precio_unidad     importe_venta    
+------------- ----------- ----------- ----------- ----------- ----------- ---------------- ----------------- ----------- ----------------- -----------------
+
+(0 rows affected)
+id_fact_venta id_tiempo   id_producto id_cliente  id_empleado id_estado   id_pedido_origen id_detalle_origen cantidad    precio_unidad     importe_venta    
+------------- ----------- ----------- ----------- ----------- ----------- ---------------- ----------------- ----------- ----------------- -----------------
+
+(0 rows affected)
+id_fact_venta id_tiempo   id_producto id_cliente  id_empleado id_estado   id_pedido_origen id_detalle_origen cantidad    precio_unidad     importe_venta    
+------------- ----------- ----------- ----------- ----------- ----------- ---------------- ----------------- ----------- ----------------- -----------------
+
+(0 rows affected)
+id_fact_venta cantidad    precio_unidad     importe_venta     importe_calculado           
+------------- ----------- ----------------- ----------------- ----------------------------
+
+(0 rows affected)
+id_fact_venta id_tiempo   id_producto id_cliente  id_empleado id_estado   id_pedido_origen id_detalle_origen cantidad    precio_unidad     importe_venta    
+------------- ----------- ----------- ----------- ----------- ----------- ---------------- ----------------- ----------- ----------------- -----------------
+
+(0 rows affected)
+id_fact_venta id_tiempo   id_producto id_cliente  id_empleado id_estado   id_pedido_origen id_detalle_origen cantidad    precio_unidad     importe_venta    
+------------- ----------- ----------- ----------- ----------- ----------- ---------------- ----------------- ----------- ----------------- -----------------
+
+(0 rows affected)
+id_fact_venta id_tiempo   id_producto id_cliente  id_empleado id_estado   id_pedido_origen id_detalle_origen cantidad    precio_unidad     importe_venta    
+------------- ----------- ----------- ----------- ----------- ----------- ---------------- ----------------- ----------- ----------------- -----------------
+
+(0 rows affected)
+id_fact_venta id_tiempo   id_producto id_cliente  id_empleado id_estado   id_pedido_origen id_detalle_origen cantidad    precio_unidad     importe_venta    
+------------- ----------- ----------- ----------- ----------- ----------- ---------------- ----------------- ----------- ----------------- -----------------
+
+(0 rows affected)
+id_fact_venta id_tiempo   id_producto id_cliente  id_empleado id_estado   id_pedido_origen id_detalle_origen cantidad    precio_unidad     importe_venta    
+------------- ----------- ----------- ----------- ----------- ----------- ---------------- ----------------- ----------- ----------------- -----------------
+
+(0 rows affected)
+id_pedido_origen id_detalle_origen cantidad   
+---------------- ----------------- -----------
+
+(0 rows affected)
+id_producto cantidad   
+----------- -----------
+
+(0 rows affected)
+id_cliente  cantidad   
+----------- -----------
+
+(0 rows affected)
+id_empleado cantidad   
+----------- -----------
+
+(0 rows affected)
+id_tiempo   cantidad   
+----------- -----------
+
+(0 rows affected)
+id_estado   estado         
+----------- ---------------
+          1 Entregado      
+          2 Pendiente      
+          3 Rechazado      
+
+(3 rows affected)
+prueba                           total      
+-------------------------------- -----------
+hechos_con_claves_nulas                    0
+hechos_con_medidas_nulas                   0
+hechos_con_cantidad_invalida               0
+hechos_con_precio_invalido                 0
+hechos_con_importe_invalido                0
+hechos_con_importe_inconsistente           0
+
+(6 rows affected)
