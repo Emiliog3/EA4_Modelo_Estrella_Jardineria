@@ -16,7 +16,7 @@ Institución Universitaria Digital de Antioquia
 29 de marzo de 2026
 
 ## Enlace del repositorio
-PEGAR_AQUI_EL_ENLACE_DEL_REPOSITORIO
+https://github.com/Emiliog3/EA4_Modelo_Estrella_Jardineria
 
 ## Descripción general de la entrega
 La presente evidencia reúne en un único repositorio los archivos, scripts, diagramas, resultados y pruebas desarrolladas durante las actividades del proyecto integrador sobre la base de datos Jardinería. La organización del repositorio se diseñó con el propósito de facilitar la navegación, la revisión técnica y la trazabilidad de los productos elaborados a lo largo del curso.
