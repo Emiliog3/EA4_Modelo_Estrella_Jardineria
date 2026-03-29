@@ -1,0 +1,2 @@
+﻿c13b770 Documentaci├│n de hallazgos de calidad de datos del sistema transaccional y modelo estrella
+db83e0b Estructura inicial del repositorio y organizaci├│n de scripts, diagramas y pruebas de calidad de datos
